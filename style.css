@@ -1,0 +1,19 @@
+.contenedor1{
+    background-color: rgb(255, 253, 197);
+    width: 600px;
+    height: auto;
+    margin:auto;
+
+}
+.head h1{
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+}
+
+.contenedor2{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}

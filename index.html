@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Excuse Generator</title>
+</head>
+<body>
+    <div class="contenedor1">
+    <div class="head">
+        <h1>Excuse Generator</h1>
+    </div>
+
+    <div class="contenedor2">
+        <div class="frase">
+            <h3>No te vas a creer lo que me ha pasado...!</h3>
+        </div>
+        <div class="excuses">
+            <p id="excuse">Mi coche se ha roto</p>
+
+        </div>
+    
+
+    </div>
+    <script>
+        window.onload = function() {
+            // Llama a la función excuses y establece el resultado en el elemento con el ID "excuse"
+            let excusaGenerada = excuses();
+            document.getElementById("excuse").innerText = excusaGenerada;
+        };
+    </script>
+    </div>
+</body>
+</html>
